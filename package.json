@@ -1,0 +1,17 @@
+{
+  "name": "got-scraping-example",
+  "version": "1.0.0",
+  "description": "A simple example of using got-scraping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "got-scraping"
+  ],
+  "author": "johnlinp",
+  "license": "ISC",
+  "dependencies": {
+    "got-scraping": "^4.0.6"
+  }
+}
