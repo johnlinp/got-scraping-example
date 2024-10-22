@@ -1,5 +1,7 @@
 # Example Script for `got-scraping`
 
+This is an example script using [`got-scraping`](https://github.com/apify/got-scraping).
+
 First, please install the package:
 
 ```
