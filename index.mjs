@@ -10,7 +10,8 @@ if (!url) {
 async function scrapeWebsite(targetUrl) {
     try {
         const response = await gotScraping({
-            url: targetUrl
+            url: targetUrl,
+            throwHttpErrors: true
         });
 
         console.log(`Content from ${targetUrl}:`);
