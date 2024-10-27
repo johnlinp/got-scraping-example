@@ -10,11 +10,7 @@ if (!url) {
 async function scrapeWebsite(targetUrl) {
     try {
         const response = await gotScraping({
-            url: targetUrl,
-            headers: {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
-                'Accept-Language': 'en-US,en;q=0.9'
-            }
+            url: targetUrl
         });
 
         console.log(`Content from ${targetUrl}:`);
